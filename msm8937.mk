@@ -177,6 +177,10 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-service \
     android.hardware.drm@1.3-service.clearkey
 
+# Widevine DRM
+PRODUCT_PACKAGES += \
+    libprotobuf_shim
+
 # For config.fs
 PRODUCT_PACKAGES += \
     fs_config_files
