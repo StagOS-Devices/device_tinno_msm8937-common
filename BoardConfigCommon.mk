@@ -62,7 +62,8 @@ TARGET_KERNEL_SOURCE := kernel/tinno/msm8937
 
 # SHIM
 TARGET_LD_SHIM_LIBS += \
-     /system/vendor/lib/mediadrm/libwvdrmengine.so|libprotobuf_shim.so
+     /system/vendor/lib/mediadrm/libwvdrmengine.so|libprotobuf_shim.so \
+     /system/vendor/lib64/libwvhidl.so|libprotobuf_shim.so
 
 # Audio
 AUDIO_FEATURE_ENABLED_AAC_ADTS_OFFLOAD := true
