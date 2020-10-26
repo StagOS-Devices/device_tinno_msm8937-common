@@ -344,7 +344,7 @@ PRODUCT_PACKAGES += \
 
 # Telephony
 PRODUCT_PACKAGES += \
-    #telephony-ext \
+    telephony-ext \
     ims-ext-common_system \
     ims_ext_common.xml \
     qti-telephony-hidl-wrapper \
@@ -355,7 +355,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     ims-ext-common_system \
-    #telephony-ext
+    telephony-ext
 
 # TextClassifier
 PRODUCT_PACKAGES += \
