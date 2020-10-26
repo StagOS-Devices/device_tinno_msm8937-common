@@ -330,7 +330,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     android.hardware.radio.config@1.0 \
-    android.hardware.secure_element@1.0
+    #android.hardware.secure_element@1.0
 
 # Seccomp policy
 PRODUCT_COPY_FILES += \
@@ -344,7 +344,7 @@ PRODUCT_PACKAGES += \
 
 # Telephony
 PRODUCT_PACKAGES += \
-    telephony-ext \
+    #telephony-ext \
     ims-ext-common_system \
     ims_ext_common.xml \
     qti-telephony-hidl-wrapper \
@@ -355,7 +355,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     ims-ext-common_system \
-    telephony-ext
+    #telephony-ext
 
 # TextClassifier
 PRODUCT_PACKAGES += \
