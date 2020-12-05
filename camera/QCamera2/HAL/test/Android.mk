@@ -24,6 +24,8 @@ ifneq (1,$(filter 1,$(shell echo "$$(( $(PLATFORM_SDK_VERSION) >= 18 ))" )))
 LOCAL_SHARED_LIBRARIES += \
     libmedia_native \
 
+LOCAL_HEADER_LIBRARIES += display_headers
+
 LOCAL_32_BIT_ONLY := $(BOARD_QTI_CAMERA_32BIT_ONLY)
 LOCAL_CFLAGS += -DUSE_JB_MR1
 
@@ -32,7 +34,6 @@ endif
 LOCAL_C_INCLUDES += \
     external/skia/include/core \
     external/skia/include/images \
-    $(TARGET_OUT_HEADERS)/qcom/display \
     $(LOCAL_PATH)/../../stack/common \
     $(LOCAL_PATH)/../../stack/mm-camera-interface/inc \
     $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include
