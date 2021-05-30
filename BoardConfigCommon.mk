@@ -195,6 +195,9 @@ TARGET_PER_MGR_ENABLED := true
 # Power
 TARGET_USES_INTERACTION_BOOST := true
 
+# Product Properties
+TARGET_PRODUCT_PROP += $(COMMON_PATH)/product.prop
+
 # Properties
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 
